@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaveh Hajinajaf — Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 13px;
+      color: #222;
+      background: #f4f4f4;
+    }
+    .page {
+      max-width: 820px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 40px 48px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+    }
+    /* ── HEADER ── */
+    header { text-align: center; margin-bottom: 18px; }
+    header h1 { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 18px;
+      margin-top: 7px;
+      font-size: 12.5px;
+      color: #444;
+    }
+    .contact a { color: #1a5ca8; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    /* ── DIVIDER ── */
+    hr { border: none; border-top: 1.5px solid #222; margin: 10px 0 14px; }
+    /* ── SECTION ── */
+    section { margin-bottom: 16px; }
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 7px;
+      border-bottom: 1px solid #bbb;
+      padding-bottom: 2px;
+    }
+    /* ── ENTRY (Education / Experience) ── */
+    .entry { margin-bottom: 10px; }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .entry-title { font-weight: 700; font-size: 13px; }
+    .entry-date { font-size: 12px; color: #555; white-space: nowrap; }
+    .entry-sub {
+      display: flex;
+      justify-content: space-between;
+      font-style: italic;
+      color: #444;
+      font-size: 12.5px;
+    }
+    .entry-link { font-size: 12px; color: #1a5ca8; }
+    .entry-link a { color: #1a5ca8; text-decoration: none; }
+    .entry-link a:hover { text-decoration: underline; }
+    ul.bullets { margin: 4px 0 0 18px; }
+    ul.bullets li { margin-bottom: 2px; line-height: 1.5; }
+    /* ── TEST SCORES ── */
+    .scores-row { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 2px; }
+    .scores-row span { font-size: 12.5px; }
+    /* ── SKILLS ── */
+    .skills-row { margin-bottom: 4px; line-height: 1.6; }
+    .skills-row strong { font-weight: 700; }
+    /* ── TEACHING ASSISTANT TABLE ── */
+    .ta-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    .ta-table td { padding: 2px 6px 2px 0; }
+    .ta-table td:last-child { text-align: right; color: #555; font-style: italic; }
+    /* ── HONORS ── */
+    ul.honors { margin: 4px 0 0 18px; }
+    ul.honors li { margin-bottom: 3px; line-height: 1.5; }
+    /* ── REFERENCES ── */
+    .ref-row { margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ══ HEADER ══ -->
+  <header>
+    <h1>Kaveh Hajinajaf</h1>
+    <div class="contact">
+      <span>📞 <a href="tel:+393425198076">+39 342 519 8076</a></span>
+      <span>✉️ <a href="mailto:hajinajaf.kaveh@gmail.com">hajinajaf.kaveh@gmail.com</a></span>
+      <span>🔗 <a href="https://linkedin.com" target="_blank">LinkedIn</a></span>
+      <span>🐙 <a href="https://github.com" target="_blank">Github</a></span>
+    </div>
+  </header>
+
+  <hr/>
+
+  <!-- ══ EDUCATION ══ -->
+  <section>
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">University of Bologna</span>
+        <span class="entry-date">Sep 2025 – Present</span>
+      </div>
+      <div class="entry-sub">
+        <span>M.S. in Artificial Intelligence</span>
+        <span>Bologna, Italy</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Shahid Chamran University of Ahvaz</span>
+        <span class="entry-date">Sep 2021 – Nov 2024</span>
+      </div>
+      <div class="entry-sub">
+        <span>B.S. in Computer Engineering – GPA: 3.54/4.0 (16.56/20)</span>
+        <span>Ahvaz, Iran</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Shahid Beheshti Sampad High School</span>
+        <span class="entry-date">Sep 2014 – June 2018</span>
+      </div>
+      <div class="entry-sub">
+        <span>High School Diploma</span>
+        <span>Iran</span>
+      </div>
+    </div>
+  </section>
+
+  <hr/>
+
+  <!-- ══ TEST SCORES ══ -->
+  <section>
+    <div class="section-title">Test Scores</div>
+    <div class="scores-row">
+      <span><strong>TOEFL:</strong> Reading 28 – Listening 25 – Speaking 28 – Writing 30 — Total: 111/120</span>
+    </div>
+    <div class="scores-row" style="margin-top:4px;">
+      <span><strong>GRE:</strong> Quantitative Reasoning (157) – Verbal Reasoning (151) – Analytical Writing (3.5)</span>
+    </div>
+  </section>
+
+  <hr/>
+
+  <!-- ══ EXPERIENCE ══ -->
+  <section>
+    <div class="section-title">Experience / Employment</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Programming Assistant Coach – Iran FGC Team</span>
+        <span class="entry-date">July 2024 – Present</span>
+      </div>
+      <div class="entry-link"><a href="https://teamiranfgc.ir/" target="_blank">https://teamiranfgc.ir/</a></div>
+      <ul class="bullets">
+        <li>Coaching Iran's robotics team members on developing software for competitions</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Mr. Katooni — Contract</span>
+        <span class="entry-date">Jul 2024 – Present</span>
+      </div>
+      <div class="entry-link"><a href="https://mrkatooni.shop" target="_blank">https://mrkatooni.shop</a></div>
+      <ul class="bullets">
+        <li><strong>Job Description:</strong> Build a fully coded e-commerce website for a local company for importing and selling shoes and sneakers from China &amp; Taiwan</li>
+        <li><strong>Roles:</strong> Project Manager, Front-end Developer, Back-end Developer, DevOps</li>
+        <li><strong>CDN &amp; Cloud:</strong> Google Cloud, Cloudflare</li>
+        <li><strong>Front-End:</strong> Nuxt.js</li>
+        <li><strong>Back-End:</strong> Express.js</li>
+        <li><strong>Admin Dashboard:</strong> Vue.js</li>
+        <li><strong>Telegram Bot:</strong> Express / Node.js</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Chayamarket — Contract</span>
+        <span class="entry-date">Jun 2022 – Present</span>
+      </div>
+      <div class="entry-link"><a href="https://chayamarket.ir" target="_blank">https://chayamarket.ir</a></div>
+      <ul class="bullets">
+        <li><strong>Job Description:</strong> Build and support a fully coded website for a retailer that imports all types of products from China and UAE to Iran</li>
+        <li><strong>Roles:</strong> Project Manager, Front-end Developer, Back-end Developer, DevOps</li>
+        <li><strong>CDN &amp; Cloud:</strong> Google Cloud, Cloudflare</li>
+        <li><strong>Front-End:</strong> Nuxt.js</li>
+        <li><strong>Back-End:</strong> Express.js</li>
+        <li><strong>Admin Dashboard:</strong> Vue.js</li>
+        <li><strong>Telegram Bot:</strong> Express / Node.js</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">BEK Service LTD (United Kingdom - Remote) — Part-time</span>
+        <span class="entry-date">Oct 2022 – Mar 2023</span>
+      </div>
+      <ul class="bullets">
+        <li><strong>Job Description:</strong> A warehouse management system for a local company located in UK</li>
+        <li><strong>Roles:</strong> Front-end Developer</li>
+        <li><strong>Languages:</strong> Javascript (Ejs, Alpine.js, Bootstrap)</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">FIRST Global New Technology Experience Referee</span>
+        <span class="entry-date">Sep 2023 (2 Weeks)</span>
+      </div>
+      <div class="entry-link"><a href="https://first.global" target="_blank">https://first.global</a></div>
+      <ul class="bullets">
+        <li>Review assignments of the participated countries as First Global contest referee (<a href="https://first.global/nte/" target="_blank">https://first.global/nte/</a>)</li>
+      </ul>
+    </div>
+
+    <!-- Teaching Assistant -->
+    <div class="entry">
+      <div class="entry-title" style="margin-bottom:5px;">Teaching Assistant</div>
+      <table class="ta-table">
+        <tr><td>Natural Language Processing | Shahid Chamran University</td><td>Fall 2024</td></tr>
+        <tr><td>Principle of Database Design | Shahid Chamran University</td><td>Fall 2024</td></tr>
+        <tr><td>System Analysis &amp; Design | Shahid Chamran University</td><td>Spring 2024</td></tr>
+        <tr><td>Advanced Programming | Shahid Chamran University</td><td>Spring 2022</td></tr>
+      </table>
+    </div>
+
+    <!-- Bachelor's Final Project -->
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Bachelor's Final Project</span>
+        <span class="entry-date">April 2024 – Oct 2024</span>
+      </div>
+      <div style="font-style:italic; margin-bottom:3px;">Predict the effect of a set of drugs on SARS CoV (Covid-19) enzymes</div>
+      <ul class="bullets">
+        <li>Based on KIBA public dataset</li>
+        <li>Advisor: Dr. Morteza Jaderyan</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr/>
+
+  <!-- ══ TECHNICAL SKILLS ══ -->
+  <section>
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-row"><strong>Programming Languages:</strong> Python, R, C/C++, Java, JavaScript</div>
+    <div class="skills-row"><strong>Frameworks &amp; Libraries:</strong> PyMol, RDKit, PyTorch, scikit-learn, Pandas, NumPy, Matplotlib, Vue.js, Express.js, Typesense, ElasticSearch, MongoDB, PostgreSQL, Arduino, Raspberry Pi</div>
+  </section>
+
+  <hr/>
+
+  <!-- ══ HONORS / AWARDS ══ -->
+  <section>
+    <div class="section-title">Honors / Awards</div>
+    <ul class="honors">
+      <li><strong>2025:</strong> Among top 10% of B.Sc. students in Computer Engineering at Shahid Chamran University of Ahvaz</li>
+      <li><strong>2024:</strong> Bronze Medal, First Global 2024 Athens NTE Competition — Programming Assistant Coach, Iran FGC Team</li>
+      <li><strong>2024:</strong> Silver Medal, First Global 2024 Athens Inventor Award Competition — Programming Assistant Coach, Iran FGC Team</li>
+      <li><strong>2012–2018:</strong> Accepted as an Exceptional Talent in the NODET high school and intermediate school entrance exam in Iran (NODET: National Organization for Development of Exceptional Talents)</li>
+    </ul>
+  </section>
+
+  <hr/>
+
+  <!-- ══ CONFERENCES ══ -->
+  <section>
+    <div class="section-title">Conferences</div>
+    <ul class="honors">
+      <li>Healthcare, Bioinformatics, and Computational Biology (HBC 2024) — <a href="https://rayazi.com/events/hbc-2024" target="_blank">https://rayazi.com/events/hbc-2024</a></li>
+      <li>Sharif Neuroscience Symposium 2024 — <a href="http://sns.ee.sharif.ir" target="_blank">http://sns.ee.sharif.ir</a></li>
+      <li>Shahid Chamran University Winter IoT School (IoTrain) — In Collaboration with Erasmus+</li>
+    </ul>
+  </section>
+
+  <hr/>
+
+  <!-- ══ REFERENCES ══ -->
+  <section>
+    <div class="section-title">References</div>
+    <div class="ref-row"><strong>Work:</strong> Mr. Vahid Abdollahi — ChayaMarket Founder — <a href="mailto:vahid.abdollahi12@gmail.com">vahid.abdollahi12@gmail.com</a></div>
+    <div class="ref-row"><strong>Academic:</strong> Dr. Morteza Jaderiyan — Assistant Professor, Shahid Chamran University of Ahvaz — <a href="mailto:m.jaderiyan@scu.ac.ir">m.jaderiyan@scu.ac.ir</a></div>
+  </section>
+
+</div>
+</body>
+</html>
